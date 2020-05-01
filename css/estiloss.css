@@ -344,24 +344,7 @@ width: 100%;
 }
 
 /*--- Media queries ---*/
-@media screen and (min-width: 800px){
-	/* .menu{
-		position: static;
-		width: auto;
-		height: auto;
-		transform: translateX(0%);
-		float: right;
-		display: flex;
-		
-	}
-.menu a {
-  border: none;
-  top: 0px;
-}
-   header label{
-	   display: none;
-   } */
-} 
+
 /*--- 1280px ---*/
 
 @media screen and (max-width: 1280px) {
