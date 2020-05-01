@@ -53,16 +53,27 @@ header {
 		transform: translateX(0%);
 		float: right;
 		display: flex;
+		padding: 10px 50px;
+		text-align: right;
 		
 	}
 
+#menu-bar{
+  display: none;
+}
 
-	
 .menu a {
   border: none;
-  top: 0px;
+  padding-bottom:  10px;
+	margin: 0 20px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	position: relative;
+	top: 0px;
 }
-   header label{
+  header label{
 	   display: none;
    }
 
