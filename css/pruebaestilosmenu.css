@@ -1,0 +1,932 @@
+/*GENERAL*/
+* {
+	padding: 0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*CUERPO*/
+body {
+	background: white;
+	font-family: "Open Sans", Sans-serif;
+	font-size: 16px;
+}
+
+
+/*CONTENEDORES*/
+.contenedor {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+/*ENCABEZADO*/
+/* header {
+	background: url('../imagenes/portadanueva.jpg') black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 1000px;
+	position: relative;
+}
+
+header .cuadro-menu {
+	width: 100%;
+	/*background:black;*/
+	/*background:rgba(000,000,000,0);
+	background-size: 100%;
+	max-height: 75px;
+	position: fixed;
+	z-index: 100;
+}
+
+header .contenedor {
+	/*overflow: visible;
+}
+
+header .cuadro-menu .icono-menu  {
+	padding: 20px;
+	margin-right:  -20px;
+    float: right;
+    display: none;
+}
+
+
+header .cuadro-menu .menu {
+    padding: 25px 50px;
+    text-align: right;
+     
+    
+}
+
+header .cuadro-menu .menu a {
+	padding-bottom:  10px;
+	margin: 0 12px;
+	text-decoration: none;
+    color: #0f0f0fd7;
+	display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+	position: relative;
+    top: 0px;
+
+
+}
+
+header .cuadro-menu .menu a:hover {
+	color: #ff6666;
+}
+
+
+header .cuadro-menu .logo-menu {
+
+	padding: 20px;
+	margin-top: -20px;
+    display: inline-block;
+    position: fixed;
+
+} */
+
+    
+    
+    
+    
+    /* Section Pelea */
+    .pelea  {
+        background: #fff;
+        width: 100%;
+    }
+    
+    
+    .pelea .contenedorpelea {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;}
+    
+    .pelea .contenedorpelea .pelea1{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contImg{
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contImg img{
+        width: 50%;
+        height: 50%;
+        padding-top: 18px;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contParr{
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contParr .texto{
+        font-size: 25px;
+        width: 100%;
+        font-family: 'Varela Round', sans-serif;
+        color: #4F4F4F;
+    }
+    
+    
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        background:#fd4646;
+       padding: 50px;
+      
+    }
+    
+    
+    #fotos{
+    margin-bottom: 150px;
+        height:100%;
+        width: 100%;
+    }
+    
+    
+    /*--- Botones ---*/ 
+    
+    .descarga{
+        background: yellow;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .descarga .contenedor-botones{
+        display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    padding-bottom: 55px;
+    
+    }
+    
+    .descarga .contenedor-botones .google-play{
+        text-align: center;
+        font-size: 25px;
+        color: #676969;
+        line-height: 30px;
+        padding: 20px;
+    
+    }
+    
+    .descarga .contenedor-botones .google-play .download{
+        margin-bottom: -40px;
+    }
+    
+    .descarga .contenedor-botones .google-play .boton-playstore img{
+        margin-top: 70px;
+    }
+    
+    
+    
+    
+    .descarga .contenedor-botones .suscribe p{
+        margin-top: 30px;
+    }
+    
+    .descarga .contenedor-botones .suscribe{
+        text-align: center;
+        font-size: 25px;
+        color: #676969;
+        line-height: 28px;
+        padding: 20px;
+    }
+    
+    
+    
+    input[type="email"] {
+        
+        font-size: 22px;
+        background: yellow;
+        color:#676969;
+        border: 0px;
+        border-bottom: 2.5px solid #676969;
+        margin-top: 15px;
+        
+    }
+    
+    .descarga .suscribe .mc-field-group .email{
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    
+    
+    .descarga .suscribe .button {
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 5px 5px; 
+        background: rgba(79,80,80,0.6);
+        color: rgba(252,246,95,0.8);
+        margin-top: 20px;
+        width: 60%;
+        border: rgba(149, 150, 48) solid;
+    
+    }
+    .descarga .suscribe .button:hover{
+        background: #565656;
+        color: #fff;
+        border: #565656 solid;
+    }
+    
+    
+    /*---Capturas---*/
+    
+    .capturas{
+        background: #48E820;
+        width: 100%;
+        padding-bottom: 50px;
+        /*margin: 0 auto;	*/
+    }
+    .capturas .contenedor{
+        overflow: hidden;
+    }
+    
+    .capturas .textocap{
+        text-align: center;
+        font-size: 50px;
+        line-height: 30px;
+        color: rgba(88,88,84,0.8);
+        padding-top:75px;
+    
+    }
+    
+    
+    .capturas .contenedor-capturas{
+        /*padding: 1em; */
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    width: 100%;	
+     padding-top: 55px;
+    }
+    
+    .capturas .contenedor-capturas .screens{
+        width: 30%;	
+        text-align: center;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:280px;
+        height:154px;
+        /*margin: 0 20px 0 20px;
+        vertical-align: top;*/
+    
+    }
+    
+    
+    
+    /*---Footer---*/
+    
+    .email-copy{
+        background:#2B64AA;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .email-copy .logo-footer{
+        width: 100%;
+        text-align: center;
+        padding-top: 55px;
+    }
+    
+    
+    .email-copy .textofooter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: space-around;
+       font-size: 18px;
+       color: #232324;
+       padding: 20px;
+       line-height: 20px;
+       padding-bottom: 50px;
+    
+    }
+    
+    /*--- Media queries ---*/
+    
+    /*--- 1280px ---*/
+    
+    @media screen and (max-width: 1280px) {
+    
+     /*-- Capturas --*/
+    .capturas .contenedor-capturas {
+        padding-bottom:30px;
+    }
+    
+    }
+    
+    
+    
+    /*--- 1000 ---*/
+    
+    @media screen and (max-width: 1000px) {
+    /* Features / carousel */
+    
+    
+    #fotos{
+        margin-bottom: 170px;
+        
+    }
+    
+    
+    
+    
+    
+     /*-- Capturas --*/
+        .capturas .contenedor-capturas .screens .screenshots img{
+            width:250px;
+            height:138px;
+            
+            /*margin: 0 20px 0 20px;
+            vertical-align: top;*/
+        }
+    
+    }
+    
+    
+    
+    
+    
+    /*--- 850px ---*/ 
+    
+    @media screen and (max-width: 850px) {
+    /*-- Pelea --*/
+    .pelea .contenedorpelea .pelea1 .contImg .imagen1 {
+        width:210px; 
+        height:137px;
+        margin-bottom: 30px; /*35%*/
+    }
+    
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 1000px;
+    }
+    
+    #carouselft{
+        margin-right: 150px;
+    }
+    #fotos{
+        margin-bottom: 150px;
+    }
+    
+    
+       /*---Capturas---*/
+    
+    .capturas .contenedor-capturas .screens{
+        width: 30%;
+        
+        
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots{
+        width: 100%;
+        
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        vertical-align: super;
+    
+    }
+    
+    }
+    
+    
+    /*--- 800px ---*/ 
+    @media screen and (max-width: 800px) {
+        
+        
+    
+     #cuadromenu{
+        width:100%;
+            position: fixed;
+            
+            
+     }
+        #menubar{
+            display:block;
+            padding: 20px;
+            color: #fff;
+            overflow: hidden;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            position: relative;
+            
+            
+        }
+     
+    
+        #menubar span {
+            float: right;
+            font-size: 40px;
+        }
+     
+         
+        
+    
+         header nav {
+            width:50%;
+           height: 224px;
+            position: fixed;
+            right:100%;
+            /* margin: 0;*/
+            overflow: hidden;
+            
+        }
+     
+        header nav ul li {
+            display: block;
+            border-bottom:2px solid rgba(255,255,255,.5);
+            padding-left: 20px;
+            padding-bottom: 30px;
+            
+        } 
+     
+         header nav ul li a {
+            display: block;
+        } 
+     
+    /* Features/carousel */
+    
+    
+    #carouselft{
+        margin-right: 200px;
+    }
+    
+    
+      /*---Capturas---*/
+    
+    
+    .capturas .contenedor-capturas .screens{
+        width: 30%;
+        
+        
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots{
+        width: 100%;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:230px;
+        height:127px;
+    }
+    
+    }
+    
+    
+    /*--- 768px ---*/
+    
+    @media screen and (max-width: 768px) {
+        /*-- Pelea --*/
+    .pelea .contenedorpelea .pelea1 .contImg .imagen2 {
+        width:200px; 
+        height:162px;
+        /*19%*/
+    }
+    
+    /* Features/carousel */
+    
+    #carouselft{
+        margin-right: 230px;
+    }
+    
+    
+    /*--- 700px ---*/
+    
+    @media screen and (max-width:700px){ 
+        /*-- Pelea --*/
+        
+    .pelea .contenedorpelea .pelea1 .contImg .imagen2 {
+        width:180px; 
+        height:146px;
+        /*19%*/
+        margin-right:50px;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contParr{
+        width: 50%;
+    }
+    
+    .pelea .contenedorpelea .pelea1 .contParr .texto{
+        font-size: 22px;
+        width: 90%;
+    }
+    
+    
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 900px;
+    }
+    
+    
+    #carouselft{
+        margin-left: 30px;
+    }
+    
+    }
+      /*---Capturas---*/
+    
+    
+    .capturas .contenedor-capturas .screens{
+        width: 30%;
+        
+        
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots{
+        width: 100%;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:210px;
+        height:116px;
+    }
+    }
+    
+    
+    /*--- 684px ---*/
+    
+    @media screen and (max-width: 684px){
+    /*-- Botones --*/ 
+    .descarga .contenedor-botones{
+    padding-top: 35px;
+    
+    }
+    }
+    
+    
+    /*--- 650px ---*/
+    
+    @media screen and (max-width: 650px) {
+    
+    /* Features/carousel */
+    #carouselft{
+        margin-right: 280px;
+    }
+    
+    
+     /*-- Capturas --*/
+    
+    
+    .capturas .contenedor-capturas .screens{
+        width: 46%;
+    }
+    
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:250px;
+        height:138px;
+        /*45%*/
+    }
+    
+    }
+    
+    
+    
+    
+    /*--- 614px ---*/
+    
+    @media screen and (max-width: 614px) {
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 850px;
+    }
+    
+    #carouselft{
+        margin-right: 260px;
+    }
+    
+    }
+    
+    
+    
+    
+    /*--- 600px ---*/
+    
+    @media screen and (max-width: 600px) {
+       /*--- Pelea --*/
+    
+    .pelea .contenedorpelea .pelea1 .contImg{
+        display: none;}
+    
+    
+    
+    .pelea .contenedorpelea .pelea1 .contParr{
+        width: 46%;
+    
+        display: inline;
+        text-align: center;
+        /*margin: 0px 0px 0px 100px; */}
+    
+    .pelea .contenedorpelea .pelea1 .contParr .texto{
+        font-size: 20px;
+        width: 90%;
+        font-family: 'Varela Round', sans-serif;
+        color: #4F4F4F;
+        margin: 10px 20px 30px 30px;}
+    
+    
+     /* Features/carousel */
+    
+    #carouselft{
+        margin-right: 275px;
+    }
+    
+    
+    /*-- Botones --*/ 
+    .descarga .contenedor-botones{
+    padding-top: 35px;
+    }
+    
+    
+     
+    /*-- Capturas --*/
+    
+    .capturas .textocap{
+        font-size: 40px;
+    }
+    
+    .capturas .contenedor-capturas .screens{
+        width: 46%;
+    }
+    
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:250px;
+        height:138px;
+        /*45%*/
+    }
+    
+    }
+    
+    
+    
+    /*--- 500px ---*/
+    
+    @media screen and (max-width: 500px) {
+    
+        
+    /* Features/carousel */
+    
+    
+    
+    #carouselft{
+        right: 50px;
+    }
+    
+    
+    
+    
+    /*-- Capturas--*/
+    
+    .capturas .textocap{
+        font-size: 38px;
+    }
+    
+    .capturas .contenedor-capturas .screens{
+        width: 100%;
+    
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots{
+        width: 85%;
+        height: 100%;
+        margin-left:40px;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:350px;
+        height:193px;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    /*--- 450px ---*/
+    
+    @media screen and (max-width: 450px) {
+    
+        
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 800px;
+    }
+    
+    
+    #carouselft{
+        right: 50px;
+    }
+    
+    /*-- Capturas --*/
+    
+    .capturas .textocap{
+        font-size: 38px;
+    }
+    .capturas .contenedor-capturas{
+     padding-right: 20px;
+    }
+    
+    .capturas .contenedor-capturas .screens .screenshots img{
+        width:350px;
+        height:193px;
+    }
+    
+    /*---Footer---*/
+    
+    
+    .email-copy .textofooter .email{
+        padding-bottom: 20px;
+    }
+    
+    }
+    
+    
+    
+    
+    
+    /*--- 414px ---*/
+    
+    @media screen and (max-width: 414px) {
+       /*--- Pelea --*/
+    
+    
+    
+    .pelea .contenedorpelea .pelea1 .contParr .texto{
+        font-size: 18px;
+        width: 85%;
+    }
+    
+    /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 770px;
+    }
+    
+    
+    #carouselft{
+        right: 55px;
+    }
+    
+    
+    
+     /*-- Capturas--*/
+    
+    
+    .capturas .contenedor-capturas .screens{
+        width: 100%;
+    
+    }
+    
+    
+    .capturas .contenedor-capturas .screens .screenshots  img{
+        width:300px;
+        height:165px;
+    }
+    
+    }
+    
+    
+    /*--- 375px ---*/
+    
+    @media screen and (max-width: 375px) {
+       /*--- Pelea --*/
+    
+    
+        /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 730px;
+    }
+    
+    
+    #carouselft{
+     right: 55px;
+    }
+    
+    #fotos{
+        margin-bottom: 170px;
+        
+    
+    }
+    }
+    
+    /*--- 360px ---*/
+    
+    @media screen and (max-width: 360px) {
+       /*--- Pelea --*/
+    
+    
+    .pelea .contenedorpelea .pelea1 .contParr .texto{
+        font-size: 18px;
+        width: 82%;
+    }
+    
+    /* Features/carousel */
+    
+    #carouselft{
+      right: 62px;
+    }
+    
+    
+     /*-- Capturas--*/
+    
+    .capturas .textocap{
+        font-size: 35px;
+    }
+    .capturas .contenedor-capturas{
+     padding-right: 30px;
+    }
+    .capturas .contenedor-capturas .screens{
+        width: 100%;
+    
+    }
+    
+    
+    .capturas .contenedor-capturas .screens .screenshots  img{
+        width:280px;
+        height:154px;
+    }
+    
+    }
+    
+    
+    /*--- 320px ---*/
+    
+    @media screen and (max-width: 320px) {
+    
+    
+    
+        /* Features/carousel */
+    
+    #contenedorfeatures{
+        width: 560px;
+    }
+    
+    
+    #carouselft{
+        margin-right: 142px;
+    }
+    
+    
+     /*-- Capturas--*/
+    
+    .capturas .textocap{
+        font-size: 35px;
+    }
+    .capturas .contenedor-capturas{
+    margin-left:-35px;
+    
+    }
+    .capturas .contenedor-capturas .screens{
+        width: 90%;
+    
+    }
+    
+    
+    .capturas .contenedor-capturas .screens .screenshots  img{
+        width:280px;
+        height:154px;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
