@@ -521,6 +521,8 @@ width: 100%;
 		#menu-bar:checked ~ .menu{
 		 transform: translateX(0%);
 		}  
+
+	
 /* Features/carousel */
 
 
