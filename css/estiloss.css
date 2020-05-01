@@ -452,100 +452,92 @@ width: 100%;
 
 /*--- 800px ---*/ 
 @media screen and (max-width: 800px) {
-	
-	
 
- #cuadromenu{
-	width:100%;
-		position: fixed;
+	#cuadromenu{
+		width:100%;
+			position: fixed;
+			
+	 }
+	 
+	 
+		 header{
+			 display: flex;
+		 }
+	    header .menu {
+		margin-left: -40px;
+		text-align: left;
+		 display: inline-block; 
 		
-		
- }
-	#menubar{
-		display:block;
-		padding: 20px;
-		color: #fff;
-		overflow: hidden;
-		font-size: 25px;
-		font-weight: bold;
-		text-decoration: none;
-		position: relative;
-		
-		
-	}
- 
+		width: 40%;
+		 position: absolute;	  
+	}  
 
-	#menubar span {
-		float: right;
-		font-size: 40px;
-	}
- 
+
+
+	  header nav {
+			width:50%;
+		   height: 224px;
+			position: fixed;
+			right:100%;
+			/* margin: 0; */
+			overflow: hidden;
+		}  
+
+
+	 header nav ul li {
+			display: block;
+			border-bottom:2px solid rgba(255,255,255,.5);
+			/* padding-left: 20px; */
+			padding-bottom: 30px;
+			
+		}
+	 
+		 header nav ul li a {
+			display: block;
+		} 
 	 
 	
-
-	 header nav {
-		width:50%;
-	   height: 224px;
-		position: fixed;
-		right:100%;
-		/* margin: 0;*/
-		overflow: hidden;
-		
-	}
- 
-	header nav ul li {
+		header label{
+		float: right;
+		font-size: 28px;
+		margin: 2px 6px;
+		cursor: pointer;
 		display: block;
-		border-bottom:2px solid rgba(255,255,255,.5);
-		padding-left: 20px;
-		padding-bottom: 30px;
+		}
 		
-	} 
- 
-	 header nav ul li a {
-		display: block;
-	} 
- 
-
-	header label{
-	float: right;
-	font-size: 28px;
-	margin: 2px 6px;
-	cursor: pointer;
-	display: block;
-	}
-	
-	 .menu{
-		position: absolute;
-		top: 50px;
-		left: 0;
-		width: 60%;
-		height: 100vh;
-		 background: rgba(22,22,22,0.8); 
-		 font-size: 18px;
-		 transition: all 0.5s;
-		 transform: translateX(-100%);
-	}
-	
-	.menu a{
-		display:block; 
-		color:#fff;
-		height: 50px;
-		text-decoration: none;
-		padding: 15px;
-		border-bottom: 1px solid rgba(255,255,255,0.5);
-		top: 0px;
+		 .menu{
+			position: absolute;
+			top: 50px;
+			left: 0;
+			width: 60%;
+			height: 100vh;
+			 background: rgba(22,22,22,0.8); 
+			 font-size: 18px;
+			 transition: all 0.5s;
+			 transform: translateX(-100%);
+		}
 		
-	}
-	
-	.menu a:hover{
-		background: rgba(255,255,255,0.3);
-		text-decoration: none;
-		color: #fff;
-	}
-	
-	#menu-bar:checked ~ .menu{
-	 transform: translateX(0%);
-	}
+		.menu a{
+			
+			color:#fff;
+			/* height: 50px; */
+			text-decoration: none;
+			padding: 15px;
+			
+			top: 0px;
+			
+		}
+		
+		.menu a:hover{
+			
+			text-decoration: overline;
+			color: rgb(151, 146, 146);
+			
+		}
+		
+		#menu-bar:checked ~ .menu{
+		 transform: translateX(0%);
+		}  
 /* Features/carousel */
 
 
@@ -707,6 +699,12 @@ padding-top: 35px;
 /*--- 600px ---*/
 
 @media screen and (max-width: 600px) {
+
+	/* Menu */
+
+	header .menu {
+		width: 50%;  
+	}  
    /*--- Pelea --*/
 
 .pelea .contenedorpelea .pelea1 .contImg{
@@ -767,7 +765,11 @@ padding-top: 35px;
 /*--- 500px ---*/
 
 @media screen and (max-width: 500px) {
+	/* Menu */
 
+	header .menu {
+		width: 60%;  
+	} 
 	
 /* Features/carousel */
 
@@ -854,9 +856,13 @@ padding-top: 35px;
 /*--- 414px ---*/
 
 @media screen and (max-width: 414px) {
-   /*--- Pelea --*/
+   	/* Menu */
 
-
+	header .menu {
+		width: 70%;  
+	} 
+	
+	/*--- Pelea --*/
 
 .pelea .contenedorpelea .pelea1 .contParr .texto{
 	font-size: 18px;
@@ -994,16 +1000,5 @@ margin-left:-35px;
 	width:280px;
 	height:154px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 }
