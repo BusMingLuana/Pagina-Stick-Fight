@@ -73,19 +73,21 @@ header {
 	position: relative;
 	top: 0px;
 }
+
+
+
+.menu a:hover{
+    
+    text-decoration:overline;
+    color: rgb(87, 86, 86);
+}
   header label{
 	   display: none;
    }
 
 
 
-
-
-
-
-
-
-
+/* /Menu */
 
 
 
@@ -358,7 +360,7 @@ width: 100%;
 }
    header label{
 	   display: none;
-   }*/
+   } */
 } 
 /*--- 1280px ---*/
 
@@ -503,6 +505,47 @@ width: 100%;
 		display: block;
 	} 
  
+
+	header label{
+	float: right;
+	font-size: 28px;
+	margin: 2px 6px;
+	cursor: pointer;
+	display: block;
+	}
+	
+	 .menu{
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 60%;
+		height: 100vh;
+		 background: rgba(22,22,22,0.8); 
+		 font-size: 18px;
+		 transition: all 0.5s;
+		 transform: translateX(-100%);
+	}
+	
+	.menu a{
+		display:block; 
+		color:#fff;
+		height: 50px;
+		text-decoration: none;
+		padding: 15px;
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+		top: 0px;
+		
+	}
+	
+	.menu a:hover{
+		background: rgba(255,255,255,0.3);
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	#menu-bar:checked ~ .menu{
+	 transform: translateX(0%);
+	}
 /* Features/carousel */
 
 
