@@ -27,7 +27,7 @@ body {
 
 /*ENCABEZADO*/
 header {
-	background: url('../img/portadas/portada.jpg') black;
+	background:  black;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;

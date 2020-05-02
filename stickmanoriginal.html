@@ -20,22 +20,25 @@
  <body>	
 	<body>	
 		<header>
-			<div class="contenedor">
-				<img class="logomenu" src="imagenes/logo.png" alt=""  height="40">
-				<input type="checkbox" id="menu-bar">
-				<label class="icon-menu" for="menu-bar"  id="menu_bar"></label>
-						
-				  <!--Botones del menu-->
-						<nav class="menu" id="menu">
-	                        <a class="botonesmenu" id="btn-description" href="#">Description</a>
-							<a class="botonesmenu" id="btn-features" href="#">Features</a>
-							<a class="botonesmenu" id="btn-download" href="#">Download</a>
-							<a class="botonesmenu" id="btn-screenshots" href="#">Screenshots</a>
-					
-						</nav>
-						
-						
-		   </div>       
+           <div class="cuadro-menu" id="cuadro-menu">
+                <div class="logomenu">
+                   <img  class="logo-menu" src="imagenes/logo.png" alt=""  height="40">
+                </div>
+            
+                    <div class="icono-menu" id="iconoMenu">
+                       <img src="imagenes/menu.png"  alt="menu" id="iconoMenu2">
+                    </div> 
+                    
+                    <!--Botones del menu-->
+                    <nav class="menu" id="menu">
+                        <a class="botonesmenu" id="btn-description" href="#">Description</a>
+                        <a class="botonesmenu" id="btn-features" href="#">Features</a>
+                        <a class="botonesmenu" id="btn-download" href="#">Download</a>
+                        <a class="botonesmenu" id="btn-screenshots" href="#">Screenshots</a>
+                
+                    </nav>
+            </div>        
+             
 		</header>
 				
 				 <main>
@@ -293,15 +296,17 @@
 
    <!--Jquery -->
     <script src="js/jquery-3.4.1.min.js"></script>
-   <!--<script src="js/jquery.min.js"></script>-->
+
 <!--JavaScript-->
   <script src="js/menuefecto.js"></script>
-  <!-- <script src="js/botonesmenu.js"></script> -->
+ 
  <script src="js/efectos.js"></script>
 <script src="js/portadastick.js"></script>
  
 
 	<!--Scroll Reveal-->
+	<script src="js/desplegable.js"></script>
+	<script src="js/scrollreveal.min.js"></script>
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<script src="js/stickman.js"></script>
 
