@@ -4,15 +4,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimun-scale=1.0">
 	<!--fuentes-->
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet"> 
+	<!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">  -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
 	
 	<!--estilos css-->
 	<link rel="stylesheet"  href="css/estiloss.css">
 	<link rel="stylesheet" href="fonts.css">
 	 <link rel="stylesheet"  href="css/bootstrap.min.css"> 
 	 <link rel="stylesheet" href="css/fontello.css">
+      
 
-	
                    <title>Stick Man The fight </title>
 
 
@@ -22,7 +23,8 @@
 		<header>
            <div class="cuadro-menu" id="cuadro-menu">
                 <div class="logomenu">
-                   <img  class="logo-menu" src="imagenes/logo.png" alt=""  height="40">
+					<a href="#"><img  class="logo-menu" src="imagenes/logo.png" alt="" height="40"></a>
+				   
                 </div>
             
                     <div class="icono-menu" id="iconoMenu">
@@ -31,9 +33,9 @@
                     
                     <!--Botones del menu-->
                     <nav class="menu" id="menu">
-                        <a class="botonesmenu" id="btn-description" href="#">Description</a>
+						<button id="playstore"><a href="https://play.google.com/store/apps/details?id=com.cheshirex.stickmanthefight" class="boton">Download</a></button >
+						<a class="botonesmenu" id="btn-description"  href="#">Description</a>
                         <a class="botonesmenu" id="btn-features" href="#">Features</a>
-                        <a class="botonesmenu" id="btn-download" href="#">Download</a>
                         <a class="botonesmenu" id="btn-screenshots" href="#">Screenshots</a>
                 
                     </nav>
@@ -58,10 +60,28 @@
        <!--Section Description-->
           
     <section class="pelea"  id="description">
-
+        
+                     
+           
+<!-- 		   
     	<div class="contenedor">
+  
+			<div class="video">
+			<iframe  src="https://www.youtube.com/embed/IYJ7N2X5T4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		 </div> -->
+		 <main class="container">
 
-    		<!--Contenedor del los divs -->
+			<video class="movie"  id="video" autoplay muted loop>
+			  <source src="Stick Man Game Fight.mp4" />
+			</video>
+	  
+			<button id="playButton" class="btn-3d">Play - Pause</button>
+			<button id="muteButton" class="btn-3d">Mute - Unmute</button>
+		  </main>
+			 
+
+			<!--Contenedor del los divs -->
     		<div class="contenedorpelea">
 
 		    		<div class="pelea1">
@@ -107,56 +127,56 @@
 						<div class="carousel-inner">
 							  <div class="carousel-item active "  >
 								<div class="carousel-caption d-block"   id="carousel-caption">
-								   <h4>Single player</h4>
-								   <p> Incredible games against enemies that will test you at all times.</p>
+								   <h4>Stickman Fight</h4>
+								   <p>Defeat other players in this addicting 2D physics based Stickman game.</p>
 								</div>
-								<img id= "fotos" src="imagenes/ImgFeatures/singlePlayer.png"  >
+								<img id= "fotos" src="imagenes/ImgFeatures/1_stickman_fight.png"  >
 							  </div>
 							  
 							  
 							  <!--Level Editor-->
 							   <div class="carousel-item ">
 								 <div class="carousel-caption d-block" id="carousel-caption">
-								   <h4>Level Editor</h4>
-								   <p >Creates and edits the most epic and exciting levels.</p>
+								   <h4>Multiplayer</h4>
+								   <p>Play this amazing game with your friends and other players.</p>
 								</div>
-								<img id= "fotos" src="imagenes/ImgFeatures/levelEditor.png" >
+								<img id= "fotos" src="imagenes/ImgFeatures/2_multiplayer.png" >
 							  </div>
 							
 							   <!--Level Online-->
 							   <div class="carousel-item ">
 								 <div class="carousel-caption d-block"  id="carousel-caption">
-								   <h4>Level Online</h4>
-								   <p > Share your levels and play those that were shared by other players.</p id="textocarousel">
+								   <h4>Single player</h4>
+								   <p id="textocarousel">Have fun playing with bots and their incredible artificial intelligence. </p >
 								</div>
-								<img  id= "fotos" src="imagenes/ImgFeatures/levelOnline.jpg" >
+								<img  id= "fotos" src="imagenes/ImgFeatures/3_singleplayer.png" >
 							  </div>
    
                               <!--Skins and More-->                              
 							  <div class="carousel-item " >
 							   <div class="carousel-caption d-block"  id="carousel-caption">
-								 <h4>Skins and More</h4>
-								 <p> Play with varieties of skins and get the best score among your friends.</p id>
+								 <h4>Level Editor</h4>
+								 <p id="textocarousel">Create, edit, and share your incredible levels.</p>
 							  </div>
-							  <img id= "fotos" src="imagenes/ImgFeatures/Skins.png" >
+							  <img id= "fotos" src="imagenes/ImgFeatures/4_level_editor(1).png" >
                             </div>
                             
                               <!--Level Online-->
 							   <div class="carousel-item ">
 								 <div class="carousel-caption d-block"  id="carousel-caption">
-								   <h4>Rankin</h4>
-								   <p > Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p id="textocarousel">
+								   <h4>Skins</h4>
+								   <p id="textocarousel" >Unlock and select over 30 amazing skins. </p>
 								</div>
-								<img  id= "fotos" src="imagenes/ImgFeatures/levelOnline.jpg" >
+								<img  id= "fotos" src="imagenes/ImgFeatures/5_skins.png" >
 							  </div>
    
                               <!--Skins and More-->                              
 							  <div class="carousel-item " >
 							   <div class="carousel-caption d-block"  id="carousel-caption">
-								 <h4>Multiplayer</h4>
-								 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p id>
+								 <h4>Level online</h4>
+								 <p id="textocarousel"> Play online levels shared by other players.</p>
 							  </div>
-							  <img id= "fotos" src="imagenes/ImgFeatures/Skins.png" >
+							  <img id= "fotos" src="imagenes/ImgFeatures/6_niveles_online.png" >
 							</div>
 						</div> 
    
@@ -189,11 +209,11 @@
    	    		    </a>
    	    	     </div>
    	   	    
-   	   	       <div class="suscribe">
-   	   	    	  <p class="updates">Subscribe for updates.</p>
+   	   	       <!-- <div class="suscribe">
+   	   	    	  <p class="updates">Subscribe for updates.</p> -->
 
    	   	            <!--Inicio del codigo para el boton de sucribirse-->
-                 <div id="mc_embed_signup">
+                 <!-- <div id="mc_embed_signup">
                      <form action="https://stickmanthefight.us4.list-manage.com/subscribe/post?u=6c5b813e669376f019e2d138d&amp;id=4dcdacfbf1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                  <div id="mc_embed_signup_scroll">
                
@@ -217,9 +237,9 @@
             
                   </div>
                   </form>
-                 </div> 
+                 </div>  -->
                <!--Fin del codigo para el boton de suscribe-->
-   	   	      </div> 
+   	   	      <!-- </div>  -->
    	   	    </div>
    	   </div>
    </section>
@@ -233,37 +253,37 @@
    	  	   <div class="contenedor-capturas">
               <div class="screens">
    	  	 	     <div class="screenshots">
-   	  	 	 	     <img  src="imagenes/imgScreenshots/screen1.png" height="200">
+   	  	 	 	     <img  src="imagenes/imgScreenshots/1.png" height="200">
    	  	 	      </div>
                 </div>
                 
                 <div class="screens">
    	  	 	      <div class="screenshots">
-   	  	 	 	     <img  src="imagenes/imgScreenshots/screen2.png" height="200">
+   	  	 	 	     <img  src="imagenes/imgScreenshots/2.png" height="200">
    	  	 	       </div>
                 </div>
 
                 <div class="screens">
    	  	 	       <div class="screenshots">
-   	  	 	 	      <img  src="imagenes/imgScreenshots/screen3.png" height="200">
+   	  	 	 	      <img  src="imagenes/imgScreenshots/3.png" height="200">
    	  	 	       </div>
                 </div>
 
                 <div class="screens">
    	  	 	       <div class="screenshots">
-   	  	 	 	     <img  src="imagenes/imgScreenshots/screen4.png" height="200">
+   	  	 	 	     <img  src="imagenes/imgScreenshots/4.png" height="200">
    	  	 	       </div>
                 </div>
 
                 <div class="screens">
    	  	 	       <div class="screenshots">
-   	  	 	 	      <img  src="imagenes/imgScreenshots/screen5.png" height="200">
+   	  	 	 	      <img  src="imagenes/imgScreenshots/5.png" height="200">
    	  	 	       </div>
                 </div>
 
                 <div class="screens">
    	  	 	       <div class="screenshots">
-   	  	 	 	     <img  src="imagenes/imgScreenshots/screen6.jpg" height="200">
+   	  	 	 	     <img  src="imagenes/imgScreenshots/6.PNG" height="200">
    	  	 	        </div>
    	  	 	    </div>
    	  	   </div> 
@@ -286,7 +306,11 @@
 
                 <div class="copyright">
                 	<p>Copyright 2020 Chesirex</p>
-                </div>
+				</div>
+				
+				<div class="terminos">
+					<a href="politicas.html"><p>Politicas de Privacidad</p></a>
+				</div>
             </div>
 
    	        </div>
@@ -294,12 +318,16 @@
    	    </div>
    </footer>
 
+
+ 
+
+
    <!--Jquery -->
     <script src="js/jquery-3.4.1.min.js"></script>
 
 <!--JavaScript-->
   <script src="js/menuefecto.js"></script>
- 
+ <script src="js/video.js"></script>
  <script src="js/efectos.js"></script>
 <script src="js/portadastick.js"></script>
  

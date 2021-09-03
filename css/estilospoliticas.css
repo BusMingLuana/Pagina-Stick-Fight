@@ -1,0 +1,162 @@
+
+*{
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;}
+    
+    body{
+        background: white;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        
+        
+    }
+    
+    .contenedor{
+        overflow: hidden; 
+        width: 100%;
+        margin: auto;
+       
+       
+    }
+
+
+ 
+
+    .titulo{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+       color: #000;
+       padding-top: 30px;
+    
+    }
+    .volver{
+        float: left;
+         
+    }
+
+    .volver:hover{
+        text-decoration: underline;
+        color: rgb(64, 77, 197);
+        
+    }
+
+    h2{
+        font-weight: 700;
+        font-size: 18px;
+       color: #000;
+       padding: 25px;
+        
+    }
+
+
+    .contenedor .contenido{
+        display: inline;
+        text-align: center;
+        padding: 10px; 
+    }
+    
+    .contenedor .contenido .texto{
+        width: 100%;
+         font-weight: 400;
+         font-style: italic;
+         font-size: 15px;
+        color: #000;
+    }
+    .logomenu{
+        float: right;
+        margin: 10px;
+    }
+
+
+
+    /*--- Media queries ---*/
+
+/*--- 1280px ---*/
+
+@media screen and (max-width: 1280px) {
+    h2{
+        font-size: 20px;
+    }
+    .contenido .texto{
+         font-size: 18px;
+        
+    }
+}
+
+
+
+/*--- 800px ---*/ 
+
+@media screen and (max-width: 800px) {
+    .titulo{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+    .contenedor .contenido .texto{
+         font-size: 13.4px;
+    }
+   
+
+}
+
+/*--- 768px ---*/ 
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        font-size: 15px;
+    }
+    .contenedor .contenido .texto{
+         font-size: 13px;
+    }
+   
+
+}
+/*--- 684px ---*/
+
+@media screen and (max-width:684px){ 
+    .titulo{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .contenedor .contenido .texto{
+         font-size: 13px;
+    }
+   
+}
+
+
+
+
+/*--- 414px ---*/
+
+@media screen and (max-width: 414px){
+    .titulo{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+
+}
+/*--- 375px ---*/
+
+@media screen and (max-width: 375px){
+    .titulo{
+        margin-top: 40px;
+    }
+
+/*--- 360px ---*/
+
+@media screen and (max-width: 360px){
+   
+
+    .contenedor .contenido .texto{
+        font-size: 12px;
+   }
+  
+
+}

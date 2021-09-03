@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  //Efectos pasar a otro archivo js que se llame "efectos.js"
+  
   ScrollReveal({ reset: true });
  
 

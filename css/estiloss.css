@@ -12,7 +12,8 @@ box-sizing: border-box;}
 
 body{
 	background: white;
-	font-family: 'Varela Round', sans-serif;
+	/* font-family: 'Varela Round', sans-serif; */
+	font-family: 'Merriweather', serif;
 	 /* padding-top:60px;  */
 	
 }
@@ -51,7 +52,84 @@ header .cuadro-menu .logo-menu {
 		display: none;
 	}
 	
+	.container {
+		max-width: 960px;
+		width: 100%;
+		margin: 10px auto;
+	  }
+	  
+	  .movie {
+		width: 100%;
+	  }
 
+
+
+/* Boton */
+.btn-3d {
+	padding: 6px;
+	border: 1px solid #991a09;
+	border-radius: 4px;
+	background-color: #d9190b;
+	color: #fff;
+  
+	font-size: 20px;
+	text-shadow: 0 -1px 0 rgba(170, 21, 21, 0.5);
+	box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+	  0 1px 3px rgba(71, 34, 34, 0.2);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,rgb(255, 30, 0)),to(#e71300));
+	background-image: linear-gradient(rgb(255, 81, 0) 10%,#e72e00 100%);
+  }
+  
+  .btn-3d:hover, .btn-3d:focus {
+	background-color: #e0391b;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f00800),to(rgb(255, 8, 0)));
+	background-image: linear-gradient(#f01000 10%,rgb(255, 38, 0) 100%);
+	border-style: none;
+  }
+  
+  .btn-3d:active {
+	background-color: #cf1f00;
+	box-shadow: 0 2px 3px 0 rgba(173, 75, 75, 0.2) inset;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f01000),to(rgb(255, 30, 0)));
+	background-image: linear-gradient(#f00000 10%,rgb(255, 51, 0) 100%);
+	border-style: none;
+  }
+
+
+  /* #playButton{
+	padding: 0 16px;
+	border-radius: 2px;
+	background-color: #872b01;
+	box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+	  0 2px 2px 0 rgba(0, 0, 0, 0.14),
+	  0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	color: #fff;
+	transition: background-color 15ms linear,
+	  box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+	height: 36px;
+	line-height: 2.25rem;
+	font-family: Roboto, sans-serif;
+	font-size: 0.875rem;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+  }
+  
+  #playButton:hover, #playButton:focus {
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+	  0 4px 5px 0 rgba(0, 0, 0, 0.14),
+	  0 1px 10px 0 rgba(0, 0, 0, 0.12);
+	background-color: #902e15;
+  }
+  
+  #playButton:active {
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+	  0 8px 10px 1px rgba(0, 0, 0, 0.14),
+	  0 3px 14px 2px rgba(0, 0, 0, 0.12);
+	background-color: #61b4b3;
+  } */
+/* /Boton */
 	/*Menu*/
 	
 
@@ -76,17 +154,38 @@ header .cuadro-menu .logo-menu {
 	font-size: 1em;
 	position: relative;
 	top: 0px;
+	font-weight:400;
+	/* font-style:regular;  */
 }
 
 
 
-.menu a:hover{
-    
-    text-decoration:overline;
-    color: rgb(87, 86, 86);
+.menu #btn-description:hover{
+text-decoration:none;
+color: rgb(91, 154, 231);
 }
-  
 
+.menu #btn-features:hover{
+text-decoration:none;
+color:#f16363;
+	}
+
+
+.boton:hover{
+text-decoration:none;
+color:#faf75a; 
+}
+
+.menu #btn-screenshots:hover{
+text-decoration:none;
+color:rgb(103, 247, 67);
+}
+	
+#playstore{
+	background: transparent;
+	border: none;
+
+}
 
 /* /Menu */
 
@@ -120,6 +219,18 @@ header .cuadro-menu .logo-menu {
 	width: 100%;
 }
 
+.pelea .video{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.pelea .video iframe{
+
+	width:890px;
+	 height:500px ;
+	 /* *1.78 */
+	
+}
 
 .pelea .contenedorpelea {
 	display: block;
@@ -157,13 +268,16 @@ header .cuadro-menu .logo-menu {
 	width: 100%;
 	font-family: 'Varela Round', sans-serif;
 	color: #4F4F4F;
+	font-weight:400;
+	 font-style:italic;  
 }
 
 
 /* Features/carousel */
 
 #contenedorfeatures{
-	background:#fd4646;
+	/* background:#fd4646; */
+	 background:#f16363; 
    padding: 50px;
   
 }
@@ -179,7 +293,8 @@ margin-bottom: 150px;
 /*--- Botones ---*/ 
 
 .descarga{
-	background: yellow;
+	/* background: yellow; */
+	 background:#faf75a; 
 	width: 100%;
     margin: 0 auto;
 }
@@ -205,6 +320,9 @@ padding-bottom: 55px;
 
 .descarga .contenedor-botones .google-play .download{
 	margin-bottom: -40px;
+	font-weight: 400;
+	/* font-style: italic; */
+	color: rgb(126, 115, 15);
 }
 
 .descarga .contenedor-botones .google-play .boton-playstore img{
@@ -216,6 +334,7 @@ padding-bottom: 55px;
 
 .descarga .contenedor-botones .suscribe p{
 	margin-top: 30px;
+
 }
 
 .descarga .contenedor-botones .suscribe{
@@ -267,7 +386,8 @@ input[type="email"] {
 /*---Capturas---*/
 
 .capturas{
-	background: #48E820;
+	background: rgb(103, 247, 67);
+	/* background: #48E820; */
 	width: 100%;
 	padding-bottom: 50px;
     /*margin: 0 auto;	*/
@@ -278,10 +398,12 @@ input[type="email"] {
 
 .capturas .textocap{
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 30px;
-	color: rgba(88,88,84,0.8);
+	color:rgb(8, 92, 15);
 	padding-top:75px;
+	font-weight: 400;
+	 font-style: italic; 
 
 }
 
@@ -319,7 +441,7 @@ width: 100%;
 /*---Footer---*/
 
 .email-copy{
-	background:#2B64AA;
+	background:rgb(91, 154, 231);
 	width: 100%;
 	margin: 0 auto;
 }
@@ -341,15 +463,34 @@ width: 100%;
    padding: 20px;
    line-height: 20px;
    padding-bottom: 50px;
+   font-weight: 400;
+	font-style: italic;
 
 }
-
+.email-copy .textofooter .terminos p{
+	color: #232324;
+}
 /*--- Media queries ---*/
 
 /*--- 1280px ---*/
 
 @media screen and (max-width: 1280px) {
 
+	/* video */
+
+	
+/* .pelea .video{
+	text-align: center;
+	padding-top: 40px;
+} */
+
+.pelea .video iframe{
+
+	width:801px;
+	 height:450px ;
+	 /* *1.78 */
+	
+}
  /*-- Capturas --*/
 .capturas .contenedor-capturas {
 	padding-bottom:30px;
@@ -362,9 +503,18 @@ width: 100%;
 /*--- 1000 ---*/
 
 @media screen and (max-width: 1000px) {
+
+/* video */
+
+
+.pelea .video iframe{
+
+	width:534px;
+	 height:300px ;
+	 /* *1.78 */
+	
+}
 /* Features / carousel */
-
-
 #fotos{
 	margin-bottom: 170px;
 	
@@ -398,7 +548,16 @@ width: 100%;
 	height:137px;
 	margin-bottom: 30px; /*35%*/
 }
+/* video */
 
+
+.pelea .video iframe{
+
+		width:534px;
+	 height:300px ;
+	 /* *1.78 */
+	
+}
 /* Features/carousel */
 
 #contenedorfeatures{
@@ -492,7 +651,7 @@ width: 100%;
 			
 		}
 	
-	
+
 /* Features/carousel */
 
 
@@ -607,6 +766,15 @@ padding-top: 35px;
 /*--- 650px ---*/
 
 @media screen and (max-width: 650px) {
+		
+	/* video */
+.pelea .video iframe{
+
+	width:445px;
+ height:250px ;
+ /* *1.78 */
+
+}
 
 /* Features/carousel */
 #carouselft{
@@ -725,7 +893,14 @@ padding-top: 35px;
 	header .menu {
 		width: 60%;  
 	} 
-	
+	/* video */
+.pelea .video iframe{
+
+	width:356px;
+ height:200px ;
+ /* *1.78 */
+
+}
 /* Features/carousel */
 
 
@@ -857,8 +1032,14 @@ padding-top: 35px;
 /*--- 375px ---*/
 
 @media screen and (max-width: 375px) {
-   /*--- Pelea --*/
+/* video */
+.pelea .video iframe{
 
+	width:320.4px;
+ height:180px ;
+ /* *1.78 */
+
+}
 
 	/* Features/carousel */
 
@@ -922,7 +1103,14 @@ padding-top: 35px;
 
 @media screen and (max-width: 320px) {
 
+/* video */
+.pelea .video iframe{
 
+	width:267px;
+ height:150px ;
+ /* *1.78 */
+
+}
 
 	/* Features/carousel */
 
